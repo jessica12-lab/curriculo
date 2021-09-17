@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container, .img-title{
+    display: flex;
+}
+.side-left{
+    width: 30%;
+    background-color: rgb(194, 196, 199);
+}
+
+.side-img{
+    width: 150px;
+    border-radius: 70%;
+    
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.name{
+    color: rgb(127, 160, 221);
+    margin-top: 15%;
+}
+h4{
+    color: rgb(80, 79, 79)
+}
+.contato{
+    margin-left: 10%;
+    padding: 3%;
+    padding-top: 6%;
+    margin:10% 10%;
+    border-top: solid 1px;
+    border-color: rgb(46, 44, 44);
+}
+li{
+    list-style: none;
+    color: rgb(165, 157, 157);
+}
+ul{
+    padding-top: 6%;
+}
+ul:hover{
+    color: black;
+}
